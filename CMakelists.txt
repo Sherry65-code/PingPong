@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 3.12.0)
+
+set(PROJECT_NAME PingPong)
+
+project(${PROJECT_NAME})
+
+set(CMAKE_CXX_STANDARD 17)
+
+include_directories(${CMAKE_SOURCE_DIR}/include)
+link_directories(${CMAKE_SOURCE_DIR}/lib)
+find_library(glfw3 opengl32)
+if (WIN32)
+    link_libraries(opengl32 glfw3)
+else()    
+    link_libraries(glfw)
+endif()
+
+add_executable(${PROJECT_NAME} ${CMAKE_SOURCE_DIR}/src/main.cpp ${CMAKE_SOURCE_DIR}/src/glad.c)
+
+#file(COPY ${CMAKE_SOURCE_DIR}/assets DESTINATION ${CMAKE_BINARY_DIR}/)
