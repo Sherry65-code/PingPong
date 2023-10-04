@@ -1,4 +1,5 @@
 # ninja log v5
-1	144	7181293580453458	CMakeFiles/PingPong.dir/src/main.cpp.obj	e9fe5369740fe3c8
-5	1302	7181293592075526	CMakeFiles/PingPong.dir/src/glad.c.obj	6a95a5ced3f97db0
-3	93	7181295913289888	PingPong.exe	ee9e8b5d0b040d36
+2	331	7181312331947407	CMakeFiles/PingPong.dir/src/main.cpp.obj	e9fe5369740fe3c8
+6	335	7181312331947407	CMakeFiles/PingPong.dir/src/PP.cpp.obj	81b85553caeee704
+8	373	7181312332416243	CMakeFiles/PingPong.dir/src/glad.c.obj	6a95a5ced3f97db0
+375	464	7181312333205902	PingPong.exe	ab3b6dfa342c954d
